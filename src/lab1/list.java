@@ -24,7 +24,16 @@ public class list {
         ll.remove(0); 
         ll.remove("E"); 
         System.out.println(ll);
- 
-      
+   
+         System.out.println(); 
+         for (String str : ll) 
+            System.out.print(str + " "); 
+         
+         System.out.println();
+         System.out.println("Initial LinkedList " + ll); 
+         ll.set(1, "CC"); 
+         System.out.println("Updated LinkedList " + ll); 
+         
+         System.out.println("The first element is: " + ll.getFirst());
     }
 }
